@@ -17,7 +17,7 @@
 
 set -e
 
-export DEVICE=lavender
+export DEVICE=curtana
 export VENDOR=xiaomi
 export DEVICE_COMMON=sm6250-common
 

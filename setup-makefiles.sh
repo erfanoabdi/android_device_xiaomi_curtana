@@ -17,7 +17,7 @@
 
 set -e
 
-export DEVICE=lavender
+export DEVICE=curtana
 export VENDOR=xiaomi
 export DEVICE_BRINGUP_YEAR=2020
 export DEVICE_COMMON=sm6250-common

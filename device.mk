@@ -24,7 +24,7 @@
 # Inherit from sm6250-common
 $(call inherit-product, device/xiaomi/sm6250-common/common.mk)
 
-DEVICE_PATH := device/xiaomi/lavender
+DEVICE_PATH := device/xiaomi/curtana
 
 # Inherit properties.mk
 $(call inherit-product, $(DEVICE_PATH)/properties.mk)
@@ -52,4 +52,4 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
 # Inherit proprietary files
-$(call inherit-product-if-exists, vendor/xiaomi/lavender/lavender-vendor.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/curtana/curtana-vendor.mk)
